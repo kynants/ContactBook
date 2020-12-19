@@ -24,9 +24,6 @@ cursor_var = connection.cursor()
 # ]
 # connection.executemany("INSERT INTO contacts VALUES (?,?,?,?)", multiple_contacts)
 
-# UPDATE BOB'S PHONE NUMBER
-# 
-
 # Commit command
 connection.commit()
 
